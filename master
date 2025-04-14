@@ -1,38 +1,206 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verifikasi Nomor Sertifikasi</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+    }
+    header {
+      background: #fff;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    header img {
+      height: 50px;
+      margin-right: 15px;
+        max-width: 100%;
+    }
+    header h1 {
+      font-size: 18px;
+      margin: 0;
+      line-height: 1.2;
+    }
+    nav {
+      background: #333;
+      padding: 10px 20px;
+      color: #fff;
+      font-size: 14px;
+    }
+    nav a {
+      color: #fff;
+      margin-right: 15px;
+      text-decoration: none;
+    }
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 30px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .title {
+      text-align: center;
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+    .section-title {
+      background: #007bff;
+      color: #fff;
+      padding: 10px;
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    .profile {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+    .profile img {
+      width: 120px;
+      height: 160px;
+      object-fit: cover;
+      border: 1px solid #ddd;
+    }
+    .profile-data {
+      flex: 1;
+    }
+    .profile-data p {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+    .label {
+      font-weight: bold;
+    }
+    .sub-label {
+      font-size: 12px;
+      color: #555;
+    }
+    .status {
+      display: inline-block;
+      padding: 5px 10px;
+      background: #28a745;
+      color: #fff;
+      font-size: 12px;
+      border-radius: 5px;
+    }
+    .certification {
+      margin-top: 20px;
+      font-size: 14px;
+    }
+    .footer {
+      background: #003366;
+      color: #fff;
+      padding: 20px;
+      font-size: 12px;
+      margin-top: 50px;
+    }
+    .footer p {
+      margin: 5px 0;
+    }
+    .center {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="Logo Perhubungan">
+  <h1>
+    Direktorat Jenderal Perhubungan Laut<br>
+    Kementerian Perhubungan Republik Indonesia
+  </h1>
+</header>
+
+<nav>
+  <a href="#">Beranda / Home</a>
+  <a href="#">Informasi / Information</a>
+  <a href="#">MoU Reg I/10 STCW</a>
+  <a href="#">Verifikasi / Verification</a>
 </nav>
-    <div class="nav-space-mobile d-lg-none" style="height: 60px;"></div>
+<style>
+  .title-id {
+  font-size: 40px;
+  font-style: normal;
+}
 
-    <!-- Full Page Image Header with Vertically Centered Content -->
-    <style>
-        .masthead {
-            height: 100vh;
-            min-height: 500px;
-            background-image: url('assets/images/background-image.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
+.title-en {
+  font-size: 75px;
+  font-style: italic;
+  display: block;
+  margin-top: 20px;
+}
+  </style>
+<div class="title">
+  Verifikasi Nomor Sertifikasi / <i>Number of Certificate Verification</i>
+</div>
 
+  <div class="section-title">
+    Data Pelaut / <i>Seafarer Data</i>
+  </div>
 
-        }
+<div class="card-body">
+  <div class="d-flex flex-column align-items-center text-center">
+ <img src="https://pelaut.dephub.go.id/assets/images/blank_foto.jpg" class="" alt="Profile Photo" width="150">
+   <div class="mt-3">
+ <h4>AGUS FRANSISCO </h4>
+  <h4>6200425530</h4><br><br>
+       <span class="badge badge-warning badge-wrap">RATINGS AS ABLE SEAFARER DECK</span><br>
+             </div>
+                 </div>
+                     </div>
 
-        #jaya {
-            width: 100px;
-        }
+</div>
+    <div class="profile-data">
+      <p><span class="label">Tempat / Tanggal Lahir</span><br><span class="sub-label">Place / Date of Birth</span><br>SURABAYA, 29 AUGUST 1976</p>
+      <p><span class="label">Umur</span><br><span class="sub-label">Ages</span><br>48 Tahun / Years Old</p>
+      <p><span class="label">Jenis Kelamin</span><br><span class="sub-label">Gender</span><br>Laki-laki / Male</p>
+      <p><span class="label">Status</span><br><span class="sub-label">Status</span><br><span class="status">AKTIF / Active</span></p>
+    </div>
+  </div>
 
+  <div class="certification">
+    <p>Dengan ini menyatakan bahwa Pelaut ini terdaftar dalam Data Induk Kepelautan dan memiliki sertifikat dasar dan keahlian tertinggi sebagai berikut :</p>
+    <p><i>Hereby Certify that this Seafarer is registered in Indonesian Seafarer Database and have a basic and proficiency certificates as follows:</i></p>
 
-        #formsearch {
-            margin-left: auto;
-            margin-right: auto;
-        }
+    <div class="center" style="margin-top:20px;">
+      <b>RATINGS AS ABLE SEAFARER DECK</b><br>
+      No. <b>6200425530340625</b><br>
+      Poltekpel Barombong
+    </div>
+  </div>
+</div>
 
-        @media only screen and (max-width: 950px) {
-            #formsearch {
-                margin-left: 25px;
-                margin-right: 25px;
-            }
+<div class="footer">
+  <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+    <div>
+      <p><b>Direktorat Perkapalan dan Kepelautan</b></p>
+      <p>Jl. Medan Merdeka Barat No 8<br>Jakarta, Indonesia 10110</p>
+      <p>Contact Center: 151</p>
+      <p>Email: kepelautan@dephub.go.id</p>
+    </div>
+    <div>
+      <p>IMO (International Maritime Organization)</p>
+      <p>ILO (International Labour Organization)</p>
+      <p>BPSDM Kemenhub RI</p>
+      <p>INSA (Indonesia National Shipowners Association)</p>
+      <p>BKI (Biro Klasifikasi Indonesia)</p>
+      <p>JDIH Kemenhub</p>
+    </div>
+  </div>
+  <div class="center" style="margin-top:10px;">
+    &copy; 2024 Direktorat Perkapalan & Kepelautan, Direktorat Jenderal Perhubungan Laut, Kementerian Perhubungan Republik Indonesia
+  </div>
+</div>
 
-            #jaya {
-                width: 50px;
-            }
-
-        }
-    </style>
+</body>
+</html>
